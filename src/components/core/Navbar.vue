@@ -83,24 +83,9 @@ export default {
       ran: false,
       toggled: false,
       scrolled: false,
-      links: [
-        {
-          text: "Home",
-          type: "page",
-          url: "/",
-          btn: true,
-        },
-        {
-          text: "ISB",
-          type: "website",
-          url: "https://isbasel.ch",
-        },
-        {
-          text: "Team",
-          type: "page",
-          url: "/team",
-        },
-      ].sort((a, b) => (a.btn ? 1 : 0) - (b.btn ? 1 : 0)),
+      links: this.$store.state.data.links.sort(
+        (a, b) => (a.btn ? 1 : 0) - (b.btn ? 1 : 0)
+      ),
     };
   },
   created() {

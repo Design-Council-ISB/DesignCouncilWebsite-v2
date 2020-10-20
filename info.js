@@ -9,6 +9,25 @@ const data = {
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aeneanconsectetur tellus vel risus feugiat volutpat. Nulla vulputate erat nontempor finibus. In euismod augue ac finibus elementum. In venenatis necnulla sed convallis. Suspendisse sollicitudin imperdiet sapien, sit amettempor eros imperdiet id. Aliquam et scelerisque purus.<br /><br />Vivamus pulvinar convallis ligula sed condimentum. Curabitur a venenatisaugue. Nulla blandit sem vel sem euismod, id interdum nisi cursus.Maecenas ac dui lorem. Duis eu fermentum diam, quis ullamcorper risus.Suspendisse eleifend ex augue, gravida congue est elementum ut.",
   },
+  links: [
+    {
+      text: "Home",
+      type: "page",
+      url: "/",
+      btn: true,
+    },
+    {
+      text: "ISB",
+      type: "website",
+      url: "https://isbasel.ch",
+    },
+    {
+      text: "Team",
+      type: "page",
+      url: "/team",
+    },
+  ],
+  contact: [{ name: "Email", url: "mailto:designcouncil@isbasel.ch" }],
   team: {
     text:
       "These are the people part of the ISB Design Council and are powering the design community.",

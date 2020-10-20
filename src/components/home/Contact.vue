@@ -14,7 +14,7 @@
 
             <a
               class="link"
-              v-for="link in contact"
+              v-for="link in data.contact"
               :key="link.name"
               :href="link.url"
               >{{ link.name }} - {{ link.url }}</a
@@ -69,10 +69,10 @@
 
 <script>
 export default {
-  data() {
-    return {
-      contact: [{ name: "Email", url: "mailto:designcouncil@isbasel.ch" }],
-    };
+  computed: {
+    data() {
+      return this.$store.state.data;
+    },
   },
 };
 </script>
@@ -81,6 +81,9 @@ export default {
 .Contact {
   padding: 100px 0px 100px 0px;
   background: var(--red-dc);
+}
+.link:hover {
+  color: white !important;
 }
 .custom-control {
   position: relative;
