@@ -46,6 +46,13 @@ const data = {
         message:
           "Hi, I’m Daniel, I’m a 15 year old developer, computer science is my passion and I love being able to solve problems with programming. I also play tennis and the odd game of Tetris. You can contact me any time with questions related to the website with my email below 🙂",
       },
+      {
+        name: "Callum",
+        role: "Project Manager",
+        image: require("./src/assets/images/team/user.png"),
+        message:
+          "I'm Callum, a grade 12 student who enjoys solving problems and making terrible puns 😎 I hope to be able to bring out the best in all my team members, and create a polished final product for every task I work on.",
+      },
     ],
   },
 };
