@@ -33,6 +33,13 @@ const data = {
       "These are the people part of the ISB Design Council and are powering the design community.",
     people: [
       {
+        name: "En Yu",
+        role: "President",
+        image: require("./src/assets/images/team/user.png"),
+        message:
+          "I'm En Yu, a grade 12 student. The ability to create an aesthetic project out of pure ideas inspires me to work for design council. This year, I hope to get more students involved in design work through the year and continue presenting high quality products for the ISB community.",
+      },
+      {
         name: "Daniel Wilson",
         role: "Software/web development",
         image: require("./src/assets/images/team/dan.png"),

@@ -56,6 +56,7 @@ export default {
 <style>
 .person-img {
   width: 100%;
+  height: auto;
   object-fit: cover;
 }
 </style>
