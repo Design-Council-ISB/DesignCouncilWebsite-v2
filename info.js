@@ -40,9 +40,9 @@ const data = {
           "I'm En Yu, a grade 12 student. The ability to create an aesthetic project out of pure ideas inspires me to work for design council. This year, I hope to get more students involved in design work through the year and continue presenting high quality products for the ISB community.",
       },
       {
-        name: "Daniel Wilson",
+        name: "Daniel",
         role: "Software/web development",
-        image: require("./src/assets/images/team/dan.png"),
+        image: require("./src/assets/images/team/dan.jpg"),
         message:
           "Hi, I’m Daniel, I’m a 15 year old developer, computer science is my passion and I love being able to solve problems with programming. I also play tennis and the odd game of Tetris. You can contact me any time with questions related to the website with my email below 🙂",
       },
