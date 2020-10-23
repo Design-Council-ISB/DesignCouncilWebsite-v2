@@ -11,30 +11,36 @@
       </div>
     </div>
     <div class="row">
-      <div
-        v-for="(person, ind) in data.team.people"
-        :key="person.name"
-        class="col-md-10 mx-auto box mb-4"
-      >
+      <div class="col-md-12 mx-auto">
         <div class="container">
-          <div v-if="ind % 2 == 0" class="row">
-            <div class="col-md-4">
-              <img class="img-fluid person-img" :src="person.image" />
-            </div>
-            <div class="col-md-8 mt-3 mt-md-0">
-              <h1>{{ person.name }}</h1>
-              <p class="mt-1 text-muted">{{ person.role }}</p>
-              <p>{{ person.message }}</p>
-            </div>
-          </div>
-          <div v-else class="row">
-            <div class="col-md-8 mb-4 mb-md-0">
-              <h1>{{ person.name }}</h1>
-              <p class="mt-1 text-muted">{{ person.role }}</p>
-              <p>{{ person.message }}</p>
-            </div>
-            <div class="col-md-4">
-              <img class="img-fluid person-img" :src="person.image" />
+          <div class="row">
+            <div
+              v-for="(person, ind) in data.team.people"
+              :key="person.name"
+              class="col-md-6 mb-4"
+            >
+              <div class="container box">
+                <div v-if="ind % 2 == 0" class="row">
+                  <div class="col-md-4">
+                    <img class="img-fluid person-img" :src="person.image" />
+                  </div>
+                  <div class="col-md-8 mt-3 mt-md-0">
+                    <h1>{{ person.name }}</h1>
+                    <p class="mt-1 text-muted">{{ person.role }}</p>
+                    <p>{{ person.message }}</p>
+                  </div>
+                </div>
+                <div v-else class="row">
+                  <div class="col-md-8 mb-4 mb-md-0">
+                    <h1>{{ person.name }}</h1>
+                    <p class="mt-1 text-muted">{{ person.role }}</p>
+                    <p>{{ person.message }}</p>
+                  </div>
+                  <div class="col-md-4">
+                    <img class="img-fluid person-img" :src="person.image" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
