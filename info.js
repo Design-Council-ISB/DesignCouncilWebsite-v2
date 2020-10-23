@@ -35,7 +35,7 @@ const data = {
       {
         name: "En Yu",
         role: "President",
-        image: require("./src/assets/images/team/user.png"),
+        image: require("./src/assets/images/team/enyu.jpg"),
         message:
           "I'm En Yu, a grade 12 student. The ability to create an aesthetic project out of pure ideas inspires me to work for design council. This year, I hope to get more students involved in design work through the year and continue presenting high quality products for the ISB community.",
       },
@@ -49,9 +49,16 @@ const data = {
       {
         name: "Callum",
         role: "Project Manager",
-        image: require("./src/assets/images/team/user.png"),
+        image: require("./src/assets/images/team/callum.jpg"),
         message:
           "I'm Callum, a grade 12 student who enjoys solving problems and making terrible puns 😎 I hope to be able to bring out the best in all my team members, and create a polished final product for every task I work on.",
+      },
+      {
+        name: "Toby",
+        role: "Volunteer",
+        image: require("./src/assets/images/team/toby.jpg"),
+        message:
+          "Hi, I'm Toby. I'm a 16 year old developer (much like Daniel) and I like to solve problems by creating solutions with code. Additionally, I run my own company (big flex) and play lots of video games (some say a bit too much), and I'm very passionate about technology.",
       },
     ],
   },
