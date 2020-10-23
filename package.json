@@ -19,8 +19,6 @@
   "devDependencies": {
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "responsive-loader": "^2.2.0",
-    "sharp": "^0.26.2",
     "vue-cli-plugin-fontawesome": "~0.3.1",
     "vue-cli-plugin-store": "~0.0.7",
     "vue-template-compiler": "^2.6.11"
