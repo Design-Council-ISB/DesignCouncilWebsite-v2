@@ -68,7 +68,7 @@ const data = {
         image: require("./src/assets/images/team/tim1.jpg"),
       },
       {
-        name: "Nadina",
+        name: "Nadine",
         message:
           "Hola, I’m Nadine, a grade 11 student. My interests include photography, art, digital art or anything that requires design. If you need any help creating or producing a design, logo, poster or anything else, feel free to shoot me an email.",
         role: "Photography",
