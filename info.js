@@ -41,7 +41,7 @@ const data = {
       },
       {
         name: "Daniel",
-        role: "Software/web development",
+        role: "Software/web developer",
         image: require("./src/assets/images/team/dan.jpg"),
         message:
           "Hi, I’m Daniel, I’m a 16 year old developer (as of 2020), computer science is my passion and I love being able to solve problems with programming. I also play tennis and the odd game of Tetris. You can contact me any time with questions related to the website 🙂",
@@ -71,8 +71,15 @@ const data = {
         name: "Nadine",
         message:
           "Hola, I’m Nadine, a grade 11 student. My interests include photography, art, digital art or anything that requires design. If you need any help creating or producing a design, logo, poster or anything else, feel free to shoot me an email.",
-        role: "Photography",
+        role: "Photographer",
         image: require("./src/assets/images/team/nadine1.jpg"),
+      },
+      {
+        name: "Mats",
+        message:
+          "Hi, I'm Mats. I like to make stuff with computers (physical stuff just gets too messy). You can contact me if you need help with audio, video, 3D, anything like that. I hope to help you with your project soon!",
+        role: "Developer",
+        image: require("./src/assets/images/team/mats.jpg"),
       },
     ],
   },
