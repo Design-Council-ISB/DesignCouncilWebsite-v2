@@ -67,6 +67,13 @@ const data = {
         role: "Lead Visual Designer",
         image: require("./src/assets/images/team/tim1.jpg"),
       },
+      {
+        name: "Nadina",
+        message:
+          "Hola, I’m Nadine, a grade 11 student. My interests include photography, art, digital art or anything that requires design. If you need any help creating or producing a design, logo, poster or anything else, feel free to shoot me an email.",
+        role: "Photography",
+        image: require("./src/assets/images/team/nadine1.jpg"),
+      },
     ],
   },
 };
