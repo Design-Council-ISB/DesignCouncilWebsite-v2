@@ -21,22 +21,26 @@
             >
               <div class="container box">
                 <div v-if="ind % 2 == 0" class="row">
-                  <div class="col-md-4">
-                    <img class="img-fluid person-img" :src="person.image" />
+                  <div class="col-md-6 pr-0">
+                    <img
+                      loading="lazy"
+                      class="person-img img-fluid"
+                      :src="person.image"
+                    />
                   </div>
-                  <div class="col-md-8 mt-3 mt-md-0">
+                  <div class="col-md-6 mt-3 mt-md-0">
                     <h1>{{ person.name }}</h1>
                     <p class="mt-1 text-muted">{{ person.role }}</p>
                     <p>{{ person.message }}</p>
                   </div>
                 </div>
                 <div v-else class="row">
-                  <div class="col-md-8 mb-4 mb-md-0">
+                  <div class="col-md-6 pr-0 mb-4 mb-md-0">
                     <h1>{{ person.name }}</h1>
                     <p class="mt-1 text-muted">{{ person.role }}</p>
                     <p>{{ person.message }}</p>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-6">
                     <img class="img-fluid person-img" :src="person.image" />
                   </div>
                 </div>
@@ -61,8 +65,8 @@ export default {
 
 <style>
 .person-img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 400px;
   object-fit: cover;
 }
 </style>

@@ -40,8 +40,8 @@ export default {
   overflow: hidden;
   border-radius: 3px;
   background: white;
-  -webkit-box-shadow: rgba(68, 88, 144, 0.1) 0px 10px 29px 10px;
-  box-shadow: rgba(68, 88, 144, 0.1) 0px 10px 29px 10px;
+  -webkit-box-shadow: rgba(68, 88, 144, 0.2) 0px 10px 29px 10px;
+  box-shadow: rgba(68, 88, 144, 0.2) 0px 10px 29px 10px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   will-change: transform;

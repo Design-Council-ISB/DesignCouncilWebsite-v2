@@ -55,13 +55,20 @@ const data = {
       },
       {
         name: "Toby",
-        role: "Volunteer",
+        role: "Technology Manager",
         image: require("./src/assets/images/team/toby.jpg"),
         message:
           "Hi, I'm Toby. I'm a 16 year old developer (much like Daniel) and I like to solve problems by creating solutions with code. Additionally, I run my own company (big flex) and play lots of video games (some say a bit too much), and I'm very passionate about technology.",
+      },
+      {
+        name: "Tim",
+        message:
+          "I'm Tim, I'm into gaming, designing, and the arts. When designing I'm focused on sleek aesthetics, functionality, and meaning. I'm mostly in charge of graphic design around here. From logos, to posters, to infographics and more, so I hope that I can fulfill whatever needs you have!",
+        role: "Lead Visual Designer",
+        image: require("./src/assets/images/team/tim.jpg"),
       },
     ],
   },
 };
 
-module.exports = data; // allows the website to use this file
+export default data; // allows the website to use this file
