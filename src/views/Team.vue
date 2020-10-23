@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 mx-auto">
+      <div class="col-md-12 px-0">
         <div class="container">
           <div class="row">
             <div
