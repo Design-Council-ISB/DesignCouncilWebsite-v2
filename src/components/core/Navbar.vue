@@ -76,6 +76,7 @@ export default {
   watch: {
     $route() {
       this.toggled = false;
+      window.scrollTo(0, 0);
     },
   },
   data() {
@@ -107,6 +108,10 @@ export default {
 </script>
 
 <style>
+html,
+body {
+  scroll-behavior: smooth;
+}
 .m-n a:focus {
   color: white;
   opacity: 0.7;
