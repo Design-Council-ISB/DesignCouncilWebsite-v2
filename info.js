@@ -44,7 +44,7 @@ const data = {
         role: "Software/web development",
         image: require("./src/assets/images/team/dan.jpg"),
         message:
-          "Hi, I’m Daniel, I’m a 15 year old developer, computer science is my passion and I love being able to solve problems with programming. I also play tennis and the odd game of Tetris. You can contact me any time with questions related to the website with my email below 🙂",
+          "Hi, I’m Daniel, I’m a 16 year old developer (as of 2020), computer science is my passion and I love being able to solve problems with programming. I also play tennis and the odd game of Tetris. You can contact me any time with questions related to the website 🙂",
       },
       {
         name: "Callum",
