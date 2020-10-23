@@ -65,7 +65,7 @@ const data = {
         message:
           "I'm Tim, I'm into gaming, designing, and the arts. When designing I'm focused on sleek aesthetics, functionality, and meaning. I'm mostly in charge of graphic design around here. From logos, to posters, to infographics and more, so I hope that I can fulfill whatever needs you have!",
         role: "Lead Visual Designer",
-        image: require("./src/assets/images/team/tim.jpg"),
+        image: require("./src/assets/images/team/tim1.jpg"),
       },
     ],
   },
