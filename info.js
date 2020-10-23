@@ -81,6 +81,13 @@ const data = {
         role: "Developer",
         image: require("./src/assets/images/team/mats.jpg"),
       },
+      {
+        name: "Jasper",
+        message:
+          "I'm Jasper, a 9th grade student, I like to make stuff on computers. I like designing logos, editing videos, photos, and making music. If you need anything like that feel free to contact me!",
+        role: "Developer",
+        image: require("./src/assets/images/team/jasper.jpg"),
+      },
     ],
   },
 };
