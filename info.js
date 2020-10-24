@@ -85,7 +85,7 @@ const data = {
         name: "Mats",
         message:
           "Hi, I'm Mats. I like to make stuff with computers (physical stuff just gets too messy). You can contact me if you need help with audio, video, 3D, anything like that. I hope to help you with your project soon!",
-        role: "Developer",
+        role: "Head of Audio",
         image: require("./src/assets/images/team/mats.jpg"),
       },
       {
@@ -100,6 +100,21 @@ const data = {
         role: "Streaming",
         message:
           "Hey I'm Kaitlyn, a grade 11 student. I enjoy working with others and create art or play  games when I'm not studying. I hope to support Design Council this year by offering creative ideas and a hardworking attitude :)",
+        image: require("./src/assets/images/team/user.png"),
+      },
+
+      {
+        name: "Carmelina",
+        role: "Photographer",
+        message:
+          "Hi, I'm Carmelina and i'm in grade 11. I hope to improve my design skills throughout this experience and help out the ISB community.",
+        image: require("./src/assets/images/team/carmelina1.jpg"),
+      },
+      {
+        name: "Leo",
+        role: "Developer",
+        message:
+          "Hi everyone, I'm Leo, a 15 year old programming enthusiast in 10th grade. I program apps and scripts in my free time, specifically machine learning projects. I enjoy using machine learning to automate tedious and boring tasks that we have to do every day. I look forward to helping other people and clubs in the school with their own technological needs.",
         image: require("./src/assets/images/team/user.png"),
       },
     ],

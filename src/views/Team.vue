@@ -29,14 +29,14 @@
                     />
                   </div>
                   <div class="col-md-6 mt-3 mt-md-0">
-                    <h1>{{ person.name }}</h1>
+                    <h2>{{ person.name }}</h2>
                     <p class="mt-1 text-muted">{{ person.role }}</p>
                     <p>{{ person.message }}</p>
                   </div>
                 </div>
                 <div v-else class="row">
                   <div class="col-md-6 pr-0 mb-4 mb-md-0">
-                    <h1>{{ person.name }}</h1>
+                    <h2>{{ person.name }}</h2>
                     <p class="mt-1 text-muted">{{ person.role }}</p>
                     <p>{{ person.message }}</p>
                   </div>
