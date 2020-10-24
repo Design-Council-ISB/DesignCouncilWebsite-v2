@@ -11,13 +11,13 @@
           </p>
           <!-- <input class="mt-2" v-model="color" type="color" /> -->
         </div>
-        <!-- <div class="col text-center">
+        <div class="col d-none d-md-block text-center">
           <img
             class="img-fluid"
             width="300"
             src="../../assets/images/core/logo.png"
           />
-        </div> -->
+        </div>
       </div>
     </div>
   </section>
