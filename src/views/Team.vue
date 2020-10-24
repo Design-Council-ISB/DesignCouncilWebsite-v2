@@ -55,6 +55,11 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: "Team - ISB Design Council",
+    };
+  },
   computed: {
     data() {
       return this.$store.state.data;
