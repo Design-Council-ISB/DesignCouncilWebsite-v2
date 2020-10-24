@@ -54,6 +54,13 @@ const data = {
           "I'm Callum, a grade 12 student who enjoys solving problems and making terrible puns 😎 I hope to be able to bring out the best in all my team members, and create a polished final product for every task I work on.",
       },
       {
+        name: "Charles",
+        role: "Director of Videography",
+        image: require("./src/assets/images/team/charles1.jpg"),
+        message:
+          "Hi, My name is Charles, and I’m a 15 year old grade 10 student at ISB. In the Design Council, I am the Director of Videography, which means that I’m in charge of streaming events and most videos that we produce. I enjoy using digital technology to design and create solutions for people’s wants or needs which is why I joined the Design Council. If you have any questions or project ideas, feel free to contact me at my school email address.",
+      },
+      {
         name: "Toby",
         role: "Technology Manager",
         image: require("./src/assets/images/team/toby.jpg"),
@@ -87,6 +94,13 @@ const data = {
           "I'm Jasper, a 9th grade student, I like to make stuff on computers. I like designing logos, editing videos, photos, and making music. If you need anything like that feel free to contact me!",
         role: "Developer",
         image: require("./src/assets/images/team/jasper.jpg"),
+      },
+      {
+        name: "Kaitlyn",
+        role: "Streaming",
+        message:
+          "Hey I'm Kaitlyn, a grade 11 student. I enjoy working with others and create art or play  games when I'm not studying. I hope to support Design Council this year by offering creative ideas and a hardworking attitude :)",
+        image: require("./src/assets/images/team/user.png"),
       },
     ],
   },
