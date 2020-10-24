@@ -23,22 +23,14 @@
         </div>
         <div class="col-md-7 mt-3 mt-md-0">
           <div class="box">
-            <form class="box-form" method="post" data-netlify="true">
+            <iframe class="form-frame" :src="lazy"> </iframe>
+            <!-- <form class="box-form" method="post" data-netlify="true">
               <div class="form-group">
                 <input
                   class="form-control "
                   type="text"
-                  name="first-name"
-                  placeholder="First name *"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  class="form-control "
-                  type="text"
-                  name="last-name"
-                  placeholder="Last name *"
+                  name="What is your name?"
+                  placeholder="Name *"
                   required
                 />
               </div>
@@ -46,7 +38,34 @@
                 <input
                   class="form-control "
                   type="email"
-                  name="email"
+                  name="Email address"
+                  placeholder="Email address *"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control "
+                  type="date"
+                  name="When would you like to receive the end product by?"
+                  placeholder="When would you like to receive the end product by? *"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control "
+                  type="email"
+                  name="What would you like?"
+                  placeholder="What would you like? *"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control "
+                  type="email"
+                  name="Email address"
                   placeholder="Email address *"
                   required
                 />
@@ -59,7 +78,7 @@
                   ></span>
                 </button>
               </div>
-            </form>
+            </form> -->
           </div>
         </div>
       </div>
@@ -74,10 +93,28 @@ export default {
       return this.$store.state.data;
     },
   },
+  data() {
+    return {
+      lazy: "",
+    };
+  },
+  mounted() {
+    window.onload = () =>
+      setTimeout(
+        () => (this.lazy = "https://forms.gle/H5tNjcYGeCxZPLtS9"),
+        1000
+      );
+  },
 };
 </script>
 
 <style>
+.form-frame {
+  width: 100%;
+  height: 500px;
+  outline: none;
+  border: none;
+}
 .Contact {
   padding: 100px 0px 100px 0px;
   background: var(--red-dc);

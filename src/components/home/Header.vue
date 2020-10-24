@@ -11,6 +11,13 @@
           </p>
           <!-- <input class="mt-2" v-model="color" type="color" /> -->
         </div>
+        <!-- <div class="col text-center">
+          <img
+            class="img-fluid"
+            width="300"
+            src="../../assets/images/core/logo.png"
+          />
+        </div> -->
       </div>
     </div>
   </section>

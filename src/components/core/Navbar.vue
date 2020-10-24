@@ -7,8 +7,8 @@
             <router-link to="/" class="nav-logo navbar-brand">
               <h4>
                 <img
-                  width="30"
-                  height="30"
+                  width="50"
+                  height="50"
                   src="../../assets/images/core/logo.svg"
                   class="img-fluid mr-2"
                 />
