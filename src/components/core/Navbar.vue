@@ -3,9 +3,17 @@
     <div class="n" :scrolling="scrolled">
       <div class="container">
         <div class="row no-gutters">
-          <div class="col-md-4 col-6">
-            <router-link to="/" class="nav-logo"
-              ><h4>{{ data.name }}</h4></router-link
+          <div class="col-md-4 col-8">
+            <router-link to="/" class="nav-logo navbar-brand">
+              <h4>
+                <img
+                  width="30"
+                  height="30"
+                  src="../../assets/images/core/logo.svg"
+                  class="img-fluid mr-2"
+                />
+                {{ data.name }}
+              </h4></router-link
             >
           </div>
           <div class="col d-md-block d-none text-right">
@@ -111,6 +119,9 @@ export default {
 html,
 body {
   scroll-behavior: smooth;
+}
+.brand-icon {
+  width: 64px;
 }
 .m-n a:focus {
   color: white;

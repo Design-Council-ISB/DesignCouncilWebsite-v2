@@ -104,7 +104,7 @@ export default {
 }
 
 .custom-control-input:checked ~ .custom-control-label::before {
-  color: #322153;
+  color: var(--dark-dc);
   border-color: #f7f6f9;
   background-color: #fff;
 }
@@ -255,7 +255,7 @@ export default {
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.222;
-  color: #322153;
+  color: var(--dark-dc);
   vertical-align: middle;
   background: url("data:image/svg+xml,%3csvg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23192031' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
     no-repeat right 1.0625rem center/8px 10px;
@@ -272,7 +272,7 @@ export default {
 }
 
 .custom-select:focus::-ms-value {
-  color: #322153;
+  color: var(--dark-dc);
   background-color: #f7f6f9;
 }
 
@@ -352,7 +352,7 @@ export default {
   padding: 0.6875rem 1.0625rem;
   font-weight: 700;
   line-height: 1.222;
-  color: #322153;
+  color: var(--dark-dc);
   background-color: #f7f6f9;
   border: 3px solid #f7f6f9;
   border-radius: 1.5625rem;
@@ -368,7 +368,7 @@ export default {
   height: calc(1.222em + 1.375rem);
   padding: 0.6875rem 1.0625rem;
   line-height: 1.222;
-  color: #322153;
+  color: var(--dark-dc);
   content: "Browse";
   background-color: #f7f6f9;
   border-left: inherit;
@@ -554,7 +554,7 @@ export default {
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.222;
-  color: #322153;
+  color: var(--dark-dc);
   background-color: #f7f6f9;
   background-clip: padding-box;
   border: 3px solid #f7f6f9;
@@ -574,7 +574,7 @@ export default {
 }
 
 .form-control:focus {
-  color: #322153;
+  color: var(--dark-dc);
   background-color: #fff;
   border-color: #e9e9eb;
   outline: 0;
@@ -593,7 +593,7 @@ export default {
 }
 
 select.form-control:focus::-ms-value {
-  color: #322153;
+  color: var(--dark-dc);
   background-color: #f7f6f9;
 }
 
@@ -1206,7 +1206,7 @@ textarea.form-control.is-invalid {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.222;
-  color: #322153;
+  color: var(--dark-dc);
   text-align: center;
   white-space: nowrap;
   background-color: #f7f6f9;
@@ -1344,7 +1344,7 @@ textarea.form-control {
 }
 
 .popup-newsletter-form .form-control:focus {
-  color: #322153;
+  color: var(--dark-dc);
   background-color: #fff;
 }
 
@@ -1433,8 +1433,8 @@ textarea.form-control {
 }
 
 .custom-control-input:checked ~ .custom-control-label:hover::before {
-  background-color: #322153;
-  border-color: #322153;
+  background-color: var(--dark-dc);
+  border-color: var(--dark-dc);
 }
 
 .custom-checkbox

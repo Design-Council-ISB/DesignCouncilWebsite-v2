@@ -5,7 +5,8 @@
 }
 
 html {
-  --red-dc: #eb4e43;
+  --dark-dc: #4700b3;
+  --red-dc: #6600ff;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -352,7 +353,7 @@ h6,
   margin-bottom: 0.5rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #322153;
+  color: var(--dark-dc);
 }
 
 h1,
@@ -716,7 +717,7 @@ a.text-light:focus {
 }
 
 .text-dark {
-  color: #322153 !important;
+  color: var(--dark-dc) !important;
 }
 
 a.text-dark:hover,
@@ -1941,7 +1942,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #322153 !important;
+  background-color: var(--dark-dc) !important;
 }
 
 a.bg-dark:hover,
@@ -4636,7 +4637,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-  border-color: #322153 !important;
+  border-color: var(--dark-dc) !important;
 }
 
 .border-white {
@@ -5547,7 +5548,11 @@ html.components-ready .page {
 }
 
 .bg-dark .page-image::after {
-  background-image: linear-gradient(180deg, transparent 0%, #322153 100%);
+  background-image: linear-gradient(
+    180deg,
+    transparent 0%,
+    var(--dark-dc) 100%
+  );
 }
 
 .bg-100 .page-image::after {
@@ -5575,7 +5580,11 @@ html.components-ready .page {
 }
 
 .bg-700 .page-image::after {
-  background-image: linear-gradient(180deg, transparent 0%, #322153 100%);
+  background-image: linear-gradient(
+    180deg,
+    transparent 0%,
+    var(--dark-dc) 100%
+  );
 }
 
 .bg-800 .page-image::after {
@@ -5664,7 +5673,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #322153;
+  background-color: var(--dark-dc);
 }
 
 a.bg-dark:hover,
@@ -5773,7 +5782,7 @@ button.bg-600:focus {
 }
 
 .bg-700 {
-  background-color: #322153;
+  background-color: var(--dark-dc);
 }
 
 a.bg-700:hover,
@@ -5884,11 +5893,11 @@ button.bg-900:focus {
 }
 
 [class*="overlay-dark"]::before {
-  background-color: #322153;
+  background-color: var(--dark-dc);
 }
 
 .overlay-700::before {
-  background-color: #322153;
+  background-color: var(--dark-dc);
 }
 
 .overlay-800::before {
@@ -5975,7 +5984,7 @@ a.text-600:focus {
 }
 
 .text-700 {
-  color: #322153 !important;
+  color: var(--dark-dc) !important;
 }
 
 a.text-700:hover,

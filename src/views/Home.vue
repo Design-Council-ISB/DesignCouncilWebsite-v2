@@ -11,6 +11,11 @@ import Header from "../components/home/Header.vue";
 import About from "../components/home/About.vue";
 import Contact from "../components/home/Contact.vue";
 export default {
+  head() {
+    return {
+      title: "Home - ISB Design Council",
+    };
+  },
   name: "Home",
   components: {
     Header,
