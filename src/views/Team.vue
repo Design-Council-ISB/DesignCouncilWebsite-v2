@@ -21,7 +21,7 @@
             >
               <div class="container box">
                 <div v-if="ind % 2 == 0" class="row">
-                  <div class="col-md-6 pr-0">
+                  <div class="col-md-6  pr-md-0">
                     <img
                       loading="lazy"
                       class="person-img img-fluid"
@@ -35,7 +35,7 @@
                   </div>
                 </div>
                 <div v-else class="row">
-                  <div class="col-md-6 pr-0 mb-4 mb-md-0">
+                  <div class="col-md-6 pr-md-0 mb-4 mb-md-0">
                     <h2>{{ person.name }}</h2>
                     <p class="mt-1 text-muted">{{ person.role }}</p>
                     <p>{{ person.message }}</p>
