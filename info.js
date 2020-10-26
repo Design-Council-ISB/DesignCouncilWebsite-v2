@@ -9,7 +9,7 @@ const data = {
   },
   about: {
     text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aeneanconsectetur tellus vel risus feugiat volutpat. Nulla vulputate erat nontempor finibus. In euismod augue ac finibus elementum. In venenatis necnulla sed convallis. Suspendisse sollicitudin imperdiet sapien, sit amettempor eros imperdiet id. Aliquam et scelerisque purus.<br /><br />Vivamus pulvinar convallis ligula sed condimentum. Curabitur a venenatisaugue. Nulla blandit sem vel sem euismod, id interdum nisi cursus.Maecenas ac dui lorem. Duis eu fermentum diam, quis ullamcorper risus.Suspendisse eleifend ex augue, gravida congue est elementum ut.",
+      "We are the Design Council, a team of 18 talented students who offer services such as, design for websites, logos, posters etc. In addition to that, we also live stream events to all ISB community members. If you, or your club or team need something to be designed, we are here to help you. All of our members are devoted to making sure that the International School (of) Basel is powered by the best technology.",
   },
   links: [
     {
@@ -27,6 +27,11 @@ const data = {
       text: "Team",
       type: "page",
       url: "/team",
+    },
+    {
+      text: "Projects",
+      type: "page",
+      url: "/projects",
     },
   ],
   contact: [{ name: "Email", url: "mailto:designcouncil@isbasel.ch" }],
