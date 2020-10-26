@@ -126,6 +126,69 @@ const data = {
       },
     ],
   },
+  projects: {
+    text: "",
+    projects: [
+      {
+        name: "Student Magazine (The Basilisk)",
+        description:
+          "The student magazine, led by Mr. Brown was developed and is maintained by the Design Council. We work closely with the student magazine to make sure they can publish easily and regularly. This project required the creation and maintenance of thebasilisk.org using wordpress to allow the members of the Student Magazine to easily create and edit posts at any time.",
+        link: "https://thebasilisk.org",
+        image: require("./src/assets/images/projects/thebasilisk.png"),
+        btns: [
+          {
+            url: "https://thebasilisk.org/",
+            name: "Basilisk Home",
+          },
+          {
+            url: "https://thebasilisk.org/team",
+            name: "Basilisk team",
+          },
+        ],
+      },
+      {
+        name: "Graduation 2020",
+        description:
+          "The Design Council hosted the graduation 2020 which was held online due to the issues of COVID-19. We helped adapt the graduation to an online event held live for the ISB community. The Goodbye Video was also made by the Design Council.",
+        link: "https://www.isbasel.ch/learn/senior-school/graduation-2020",
+        image: require("./src/assets/images/projects/graduation2020.jpg"),
+        btns: [
+          {
+            name: "View Graduation",
+            url: "https://www.isbasel.ch/learn/senior-school/graduation-2020",
+          },
+        ],
+      },
+      {
+        name: "Welcome Committee",
+        description:
+          "The ISB Community Association (CA) is a website dedicated to welcoming new families! This website part of the Welcome Programme, a part of the CA, that helps new families transition and integrate with the ISB community. ",
+        link: "https://sites.google.com/isbasel.ch/welcome/home",
+        image: require("./src/assets/images/projects/welcome-committee.png"),
+        btns: [
+          {
+            name: "View Welcome Committee",
+            url: "https://sites.google.com/isbasel.ch/welcome/home",
+          },
+        ],
+      },
+      {
+        name: "International Festival 2020",
+        description:
+          "For close to 30 years, the International Festival (IF) has been a cornerstone in celebrating diversity at ISB. Held every Spring term, the festival has brought ISB families together to celebrate food, drink and culture from all the different countries that represent our community. The Design Council now handles and maintains the website.",
+        link:
+          "https://sites.google.com/isbasel.ch/international-festival-website/home",
+        image: require("./src/assets/images/projects/international-festival.png"),
+        btns: [
+          {
+            name: "View IF 2020",
+            url:
+              "https://sites.google.com/isbasel.ch/international-festival-website/home",
+          },
+        ],
+      },
+    ],
+  },
 };
 
 export default data; // allows the website to use this file
