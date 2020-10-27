@@ -1,7 +1,5 @@
 const data = {
   // everything in here will be related to the site
-  formGET:
-    "https://script.google.com/macros/s/AKfycbwy4bBI4JDLW2nVf8MQ5bhuSNCu6lsCHBZEXAqhpLnWK2KsEpM/exec",
   name: "Design Council",
   header: {
     description:
