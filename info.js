@@ -51,7 +51,7 @@ const data = {
         role: "Software/web developer",
         image: require("./src/assets/images/team/dan.jpg"),
         message:
-          "Hi, I’m Daniel, I’m a 16 year old developer (as of 2020), computer science is my passion and I love being able to solve problems with programming. I also play tennis and the odd game of Tetris. You can contact me any time with questions related to the website 🙂",
+          "Hi, I’m Daniel, I’m a 16 year old developer (as of 2020), computer science is my passion and I love being able to solve problems with programming. I also play tennis and the odd game of Tetris. I coded this website as my second project with design council after thebasilisk.org. You can contact me any time with questions related to the website 🙂",
       },
       {
         name: "Callum",
@@ -123,6 +123,13 @@ const data = {
         message:
           "Hi everyone, I'm Leo, a 15 year old programming enthusiast in 10th grade. I program apps and scripts in my free time, specifically machine learning projects. I enjoy using machine learning to automate tedious and boring tasks that we have to do every day. I look forward to helping other people and clubs in the school with their own technological needs.",
         image: require("./src/assets/images/team/user.png"),
+      },
+      {
+        name: "Andrei",
+        role: "Developer",
+        message:
+          "Hello, I'm Andrei and I'm pretty passionated about coding. I joined this group to learn more about design and to help others plan their coding related projects. So far, I've had a managing role in the development of the website and I'm exited to help out with other projects too.",
+        image: require("./src/assets/images/team/andrei1.jpg"),
       },
     ],
   },
