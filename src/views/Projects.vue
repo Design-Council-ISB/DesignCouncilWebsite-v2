@@ -5,7 +5,7 @@
         <h1>Our Projects</h1>
         <hr class="mt-3" />
         <p>
-          Here are all of our projects, finished and ongoing which we worked on.
+          {{ data.projects.text }}
         </p>
       </div>
     </div>
