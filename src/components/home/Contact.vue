@@ -7,14 +7,13 @@
           <hr class="mt-2" />
           <p class="text-white">
             <span class="text-muted">
-              You can email us using the contact form to the right or contact us
-              using the links below:
+              {{ data.contact.text }}
             </span>
             <br /><br />
 
             <a
               class="link"
-              v-for="link in data.contact"
+              v-for="link in data.contact.links"
               :key="link.name"
               :href="link.url"
               >{{ link.name }} - {{ link.url }}</a
@@ -99,11 +98,7 @@ export default {
     };
   },
   mounted() {
-    window.onload = () =>
-      setTimeout(
-        () => (this.lazy = "https://forms.gle/H5tNjcYGeCxZPLtS9"),
-        1000
-      );
+    setTimeout(() => (this.lazy = "https://forms.gle/H5tNjcYGeCxZPLtS9"), 1000);
   },
 };
 </script>

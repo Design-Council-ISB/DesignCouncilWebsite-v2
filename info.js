@@ -1,7 +1,5 @@
 const data = {
   // everything in here will be related to the site
-  formGET:
-    "https://script.google.com/macros/s/AKfycbwy4bBI4JDLW2nVf8MQ5bhuSNCu6lsCHBZEXAqhpLnWK2KsEpM/exec",
   name: "Design Council",
   header: {
     description:
@@ -34,7 +32,11 @@ const data = {
       url: "/projects",
     },
   ],
-  contact: [{ name: "Email", url: "mailto:designcouncil@isbasel.ch" }],
+  contact: {
+    links: [{ name: "Email", url: "mailto:designcouncil@isbasel.ch" }],
+    text:
+      "You can email us using the contact form to the right or contact us using the links below:",
+  },
   team: {
     text:
       "These are the people part of the ISB Design Council and are powering the design community.",
@@ -134,7 +136,8 @@ const data = {
     ],
   },
   projects: {
-    text: "",
+    text:
+      "Here are all projects led by students representing the ISB Design Council, to learn more click on the links!",
     projects: [
       {
         name: "Student Magazine (The Basilisk)",
